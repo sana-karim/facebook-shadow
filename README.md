@@ -1,4 +1,4 @@
-# `This Facebook Shadow` project is developed for learning purpose only and hosted only on netlify, i have developed this project in my college days
+## `This Facebook Shadow` project is developed for learning purpose only and hosted only on netlify, i have developed this project in my college days
 
 # Getting Started with Create React App
 
