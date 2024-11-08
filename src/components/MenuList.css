@@ -1,0 +1,39 @@
+.list-container {
+    display: flex;
+    flex: 1;
+    height: 4rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.list-container:hover {
+    background-color: #f0f2f5;
+}
+
+.list-icon-container {
+    display: flex;
+    padding: 0.8rem 0.8rem 0.8rem 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-left-icn {
+    width: 30px;
+    height: 30px;
+}
+
+.list-info {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-header {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.list-sub-header {
+    font-size: 12px;
+}

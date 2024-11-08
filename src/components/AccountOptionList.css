@@ -1,0 +1,38 @@
+.account-option-list-container {
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 6px 8px;
+}
+
+.account-option-list-container:hover {
+    background-color: #f0f2f5;
+}
+
+.option-list-icn-container {
+    display: flex;
+    padding: 0.4rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9dadf;
+}
+
+.option-list-icn {
+    width: 24px;
+}
+
+.option-name {
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.option-list-more-icn {
+    display: flex;
+    width: 24px;
+}

@@ -1,0 +1,58 @@
+.right-hamburger-container {
+    display: flex;
+    flex-direction: column;
+    height: 91vh;
+    width: 23vw;
+    position: fixed;
+    right: 0;
+    overflow-y: auto;
+    float: right;
+    padding-top: 1%;
+    padding-left: 0.1%;
+}
+
+.right-hamburger-header-call-search-option-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.right-hamburger-header {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right-hamburger-new-call-btn,
+.right-hamburger-search-btn,
+.right-hamburger-nore-btn {
+    display: flex;
+    padding: 0.4rem;
+    margin: 0 0.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right-hamburger-header-call-search-option-btn span:hover {
+    background-color: #e4e4e4;
+}
+
+.right-hamburger-header-btn-icn {
+    width: 18px;
+    height: 18px;
+}
+
+.right-hamburger-container::-webkit-scrollbar {
+    width: 7px;
+}
+
+.right-hamburger-container::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: none;
+    /* transition: background-color 1s; */
+}
+
+.right-hamburger-container:hover::-webkit-scrollbar-thumb {
+    background-color: #bcc0c4;
+}

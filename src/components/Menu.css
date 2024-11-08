@@ -1,0 +1,126 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3.4rem;
+    right: 1vw;
+    height: 88vh;
+    width: 45vw;
+    padding: 1.2% 1.2% 0.4% 1.2%;
+    border-radius: 1.4%;
+    background-color: #f7f8fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+
+.menu-header {
+    margin-bottom: 10px;
+}
+
+.menu-body-contianer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.menu-body-container-left {
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    /* padding: 12px; */
+    height: fit-content;
+    border-radius: 8px;
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 2px rgba(235, 235, 235, 0.6);
+
+}
+
+.menu-search-container {
+    display: flex;
+    flex: 1;
+    padding: 12px;
+}
+
+.menu-search-input-container {
+    display: flex;
+    flex: 1;
+    background-color: #f0f2f5;
+    border-radius: 2rem;
+    padding: 0 0.8rem;
+}
+
+.menu-search-icn {
+    width: 22px;
+}
+
+.menu-search-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.7rem 0.3rem;
+    background-color: transparent;
+}
+
+.menu-social-container,
+.menu-entertainment-container,
+.menu-shopping-container,
+.menu-personal-container,
+.menu-professional-container,
+.menu-community-resources-container,
+.menu-more-from-meta-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.6rem;
+}
+
+.social-header,
+.entertainment-header,
+.shopping-header,
+.personal-header,
+.professional-header,
+.community-resources-header,
+.more-from-meta-header {
+    /* font-size: 18px; */
+    font-weight: 500;
+    padding: 0.4rem;
+}
+
+.menu-body-container-right {
+    display: flex;
+    flex: 0.37;
+    flex-direction: column;
+    padding: 12px 8PX;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 2px rgba(235, 235, 235, 0.6);
+    margin-bottom: 1%;
+}
+
+.menu-body-container-right-top {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+
+.create-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.menu-body-container-right-bottom {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    border-top: 1px solid #f0f2f5;
+}
+
+.create-section-link {
+    text-decoration: none;
+    color: black;
+}

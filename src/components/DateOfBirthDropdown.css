@@ -1,0 +1,14 @@
+.dob-dropdown {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dob-select {
+    width: 32%;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #d4d7db;
+    margin: 1% 0 3% 0;
+    outline: none;
+}

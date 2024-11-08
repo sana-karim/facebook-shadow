@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-container:hover {
+    background-color: #f2f2f2;
+}
+
+.button-container span {
+    font-size: 0.9rem;
+    color: #65676b;
+    font-weight: 500;
+}
+
+.botton-icn-container {
+    display: flex;
+}
+
+.btn-icn {
+    width: 1.4rem;
+    margin-right: 0.4rem;
+    align-self: center;
+}

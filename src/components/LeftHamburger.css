@@ -1,0 +1,34 @@
+.left-hamburger-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 56vh;
+    width: 22vw;
+    position: fixed;
+    left: 0;
+    float: left;
+    overflow-y: auto;
+    padding-top: 1%;
+    padding-left: 0.1%;
+    padding-bottom: 0.5%;
+    /* background-color: aqua; */
+    border-bottom: 1px solid lightgray;
+}
+
+.show-full-list {
+    transition: all .2s cubic-bezier(0, 1, 0, 1);
+    max-height: 91vh;
+}
+
+.left-hamburger-container::-webkit-scrollbar {
+    width: 7px;
+}
+
+.left-hamburger-container::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: none;
+    /* transition: background-color 1s; */
+}
+
+.left-hamburger-container:hover::-webkit-scrollbar-thumb {
+    background-color: #bcc0c4;
+}

@@ -1,0 +1,1 @@
+/* Make this file for all types of storage manager */
